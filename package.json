@@ -1,0 +1,34 @@
+{
+  "name": "object-emitter-only",
+  "version": "1.0.0",
+  "description": "Proxy object values to only expose emitter methods.",
+  "main": "index.js",
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": "yoshuawuyts/object-emitter-only",
+  "keywords": [
+    "emitter",
+    "object",
+    "event",
+    "proxy"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "event-accessor": "^1.1.1",
+    "object-apply": "^1.0.0"
+  },
+  "devDependencies": {
+    "coveralls": "^2.10.0",
+    "istanbul": "^0.2.11",
+    "make-lint": "^1.0.1",
+    "mocha": "^1.20.1",
+    "should": "^4.0.4"
+  },
+  "files": [
+    "lib",
+    "LICENSE",
+    "index.js",
+    "HISTORY.md"
+  ]
+}
